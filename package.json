@@ -1,0 +1,45 @@
+{
+  "name": "homepage-christopher-scharun",
+  "private": true,
+  "description": "My personal homepage",
+  "version": "1.0.0",
+  "author": "Christopher Scharun",
+  "dependencies": {
+    "gatsby": "^2.15.9",
+    "gatsby-image": "^2.2.17",
+    "gatsby-plugin-manifest": "^2.2.14",
+    "gatsby-plugin-offline": "^2.2.10",
+    "gatsby-plugin-react-helmet": "^3.1.6",
+    "gatsby-plugin-sass": "^2.1.13",
+    "gatsby-source-filesystem": "^2.1.21",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-error-boundary": "^1.2.5",
+    "react-helmet": "^5.2.1",
+    "react-typing-animation": "^1.6.2"
+  },
+  "devDependencies": {
+    "bulma": "^0.7.5",
+    "node-sass": "^4.12.0",
+    "prettier": "^1.18.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/08en/home"
+  },
+  "bugs": {
+    "url": "https://github.com/08en/home/issues"
+  }
+}
